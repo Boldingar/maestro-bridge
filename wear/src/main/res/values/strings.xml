@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pixe Watch Sensor Bridge</string>
+    <string name="hello_world">Hello, %1$s!</string>
+</resources>

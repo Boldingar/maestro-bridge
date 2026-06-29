@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pixel Watch Sensor Bridge"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for watch data..."
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvBpm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BPM: --"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skin Temp: -- °C"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvHrExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HR_EXT: [waiting...]"
+        android:gravity="center"
+        android:textSize="14sp"/>
+</LinearLayout>
